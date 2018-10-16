@@ -15,6 +15,6 @@ name_message_array.push(name_and_message)
 name_message_array
 end
 
-def assign_rooms
+def assign_rooms(names_array)
   
 end
