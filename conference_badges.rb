@@ -15,8 +15,9 @@ def batch_badge_creator(names)
   name_and_message = badge_maker(name)
   name_message_array.push(name_and_message)
   end
+  name_message_array.each do |info|
+    
   name_message_array
-  name_message_array.each do
   #printer(name_message_array)
 end
 
@@ -31,8 +32,8 @@ def assign_rooms(attendees)
 end
 
 
-def printer(array_list)
-  array_list.each do |information|
-    puts "#{information}"
+def printer(info)
+  #array_list.each do |information|
+    puts "#{info}"
   end
 end
