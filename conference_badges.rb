@@ -31,8 +31,15 @@ def assign_rooms(attendees)
 end
 
 
-def printer(array_list)
-  array_list.each do |information|
-    puts "#{infomation}"
+def printer()
+printer_batch_badge= batch_badge_creator()
+printer_batch_badge.each do |name_greeting|
+    puts " #{name_greeting}"
   end
+
+printer_assign_rooms = assign_rooms()
+printer_assign_rooms.each do |name_room|
+    puts " #{name_room}"
+end
+
 end
