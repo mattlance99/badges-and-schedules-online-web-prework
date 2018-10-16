@@ -31,7 +31,7 @@ end
 
 
 def printer(array_list)
-  array.each do |information|
+  array_list.each do |information|
     puts "#{information}"
   end
 end
