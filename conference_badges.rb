@@ -15,7 +15,7 @@ name_message_array
 end
 
 def assign_rooms(attendees)
-marvin.each.with_index(1) do |value, index|
+attendees.each.with_index(1) do |value, index|
 puts "Hello, #{value}! You'll be assigned to room #{index}!"
 end
 end
