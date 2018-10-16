@@ -5,6 +5,10 @@ def badge_maker(name)
   badge_name =  "Hello, my name is #{name}."
 end
 
+def room_assigner(value, index)
+  badge_name =  "Hello, #{value}! You'll be assigned to room #{index}!"
+end
+
 def batch_badge_creator(names)
 name_message_array = []
 names.each do |name|
