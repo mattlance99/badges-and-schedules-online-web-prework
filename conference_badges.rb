@@ -15,6 +15,7 @@ def batch_badge_creator(names)
   name_and_message = badge_maker(name)
   name_message_array.push(name_and_message)
   end
+  printer(name_message_array)
   name_message_array
 end
 
@@ -24,21 +25,13 @@ def assign_rooms(attendees)
   attendee_and_room = room_assigner(value, index)
   attendees_rooms_array.push(attendee_and_room)
   end
+  printer(attendees_rooms_array)
   attendees_rooms_array
 end
 
 
-def printer
+def printer(array_list)
+  array.each do |information|
+    puts "#{information}"
+  end
 end
-
-
-#def printer
-  #name_message_array
-  #name_message_array.each do |name_message|
-    #puts "#{name_message}"
-  #end
-  #attendees_rooms_array
-  #attendees_rooms_array.each do |name_room|
-  #puts "#{name_room}"
-  #end
-#end
