@@ -15,6 +15,10 @@ name_message_array.push(name_and_message)
 name_message_array
 end
 
-def assign_rooms(names_array)
+def assign_rooms(attendees)
+attendees.each do |attendee|
+name_and_message = badge_maker(name)
+name_message_array.push(name_and_message)
+  end
   
 end
