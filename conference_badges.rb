@@ -17,8 +17,7 @@ end
 
 def assign_rooms(attendees)
 attendees.each do |attendee|
-name_and_message = badge_maker(name)
-name_message_array.push(name_and_message)
+array.each_with_index { |val,index| puts "index: #{index} for #{val}" }
   end
   
 end
