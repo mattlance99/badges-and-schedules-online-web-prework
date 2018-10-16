@@ -40,6 +40,5 @@ printer_batch_badge.each do |name_greeting|
 printer_assign_rooms = assign_rooms()
 printer_assign_rooms.each do |name_room|
     puts " #{name_room}"
-end
-
+  end
 end
