@@ -24,7 +24,7 @@ attendees.each.with_index(1) do |value, index|
 attendee_and_room = room_assigner(value, index)
 attendees_rooms_array.push(attendee_and_room)
   end
-name_message_array
+attendees_rooms_array
 end
 
 #def assign_rooms(attendees)
