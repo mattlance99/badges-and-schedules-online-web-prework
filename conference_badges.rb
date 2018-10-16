@@ -27,8 +27,8 @@ def assign_rooms(attendees)
   attendees_rooms_array
 end
 
-def printer
-  name_message_array
+#def printer
+  #name_message_array
   #name_message_array.each do |name_message|
     #puts "#{name_message}"
   #end
