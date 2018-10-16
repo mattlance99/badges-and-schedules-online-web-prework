@@ -15,6 +15,6 @@ name_message_array
 end
 
 def assign_rooms(attendees)
-attendees.each_with_index { |attendee, index| puts "Hello, #{attendee}! You'll be assigned to room #{index}!"}
+attendees.each_with_index {|attendee, index| puts "Hello, #{attendee}! You'll be assigned to room #{index}!"}
   end
 end
