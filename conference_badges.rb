@@ -32,7 +32,8 @@ def printer
   name_message_array.each do |name_message|
     puts "#{name_message}"
   end
-    attendees_rooms_array.each do |name_room|
-    puts "#{name_room}"
+  attendees_rooms_array
+  attendees_rooms_array.each do |name_room|
+  puts "#{name_room}"
   end
 end
