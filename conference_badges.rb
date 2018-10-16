@@ -11,8 +11,8 @@ name_message_array = []
 names.each do |name|
 name_and_message = badge_maker(name)
 name_message_array.push(name_and_message)
-name_message_array
   end
+name_message_array
 end
 
 def assign_rooms
