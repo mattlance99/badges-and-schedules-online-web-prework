@@ -16,7 +16,7 @@ def batch_badge_creator(names)
   name_message_array.push(name_and_message)
   end
   name_message_array
-  name_message_array.
+  name_message_array.each do
   #printer(name_message_array)
 end
 
