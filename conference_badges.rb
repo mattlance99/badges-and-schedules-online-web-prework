@@ -16,7 +16,7 @@ def batch_badge_creator(names)
   name_message_array.push(name_and_message)
   end
   name_message_array
-  #printer(name_message_array)
+  printer(name_message_array)
 end
 
 def assign_rooms(attendees)
@@ -26,11 +26,11 @@ def assign_rooms(attendees)
   attendees_rooms_array.push(attendee_and_room)
   end
   attendees_rooms_array
-  #printer(attendees_rooms_array)
+  printer(attendees_rooms_array)
 end
 
 
-def printer(info)
+def printer(array_list)
   array_list.each do |information|
     puts "#{infomation}"
   end
