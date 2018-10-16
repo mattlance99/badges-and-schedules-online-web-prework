@@ -1,4 +1,5 @@
 # Write your code here.
+
 def badge_maker(name)
   badge_name =  "Hello, my name is #{name}."
 end
@@ -11,3 +12,5 @@ end
 badge_name_array
 end
 
+def assign_rooms()
+end
