@@ -1,6 +1,8 @@
 # Write your code here.
 names_array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
+attendees_rooms_array = []
+
 def badge_maker(name)
   badge_name =  "Hello, my name is #{name}."
 end
@@ -19,7 +21,7 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(attendees)
-  attendees_rooms_array = []
+  #attendees_rooms_array = []
   attendees.each.with_index(1) do |value, index|
   attendee_and_room = room_assigner(value, index)
   attendees_rooms_array.push(attendee_and_room)
